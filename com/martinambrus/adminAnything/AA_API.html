@@ -1361,8 +1361,15 @@ extends java.lang.Object</pre>
  // ban will be set to "ban"
  String ban = aa_plugin_instance.getPluginUtils().getCleanPluginName("Core -> ban");
  </pre></div>
-<dl><dt><span class="strong">Parameters:</span></dt><dd><code>pluginWithCommand</code> - The actual command with a colon or the "Core -> " prefix.</dd>
-<dt><span class="strong">Returns:</span></dt><dd>Returns a clear name of the plugin from a string which may contain colon or a "Core -> " prefix.</dd></dl>
+ <dl>
+  <dt><span class="strong">Parameters:</span></dt>
+  <dd><code>pluginWithCommand</code> - The actual command with a colon or the AA_API.__("general.core") + " ->" prefix.
+  </dd>
+  <dt><span class="strong">Returns:</span></dt>
+  <dd>Returns a clear name of the plugin from a string which may contain colon or a AA_API.__("general.core") + " ->"
+   prefix.
+  </dd>
+ </dl>
 </li>
 </ul>
 <a name="getAvailableNewVersion()">
