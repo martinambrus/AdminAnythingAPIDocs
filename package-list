@@ -3,11 +3,7 @@ com.martinambrus.adminAnything.commands
 com.martinambrus.adminAnything.events
 com.martinambrus.adminAnything.instrumentation
 com.martinambrus.adminAnything.listeners
-com.sun.tools.attach
-com.sun.tools.attach.spi
+com.martinambrus.adminAnything.tabcomplete
 mkremins.fanciful
 mkremins.fanciful.reflections
 net.amoebaman.util
-sun.jvmstat.monitor
-sun.jvmstat.monitor.event
-sun.tools.attach
